@@ -2,7 +2,6 @@ import discord
 import random
 import aiohttp
 import os
-
 # --- CONFIG ---
 BOT_TOKEN = os.environ.get("MTQ5OTk4NzUyMzA3Njc1NTU5Nw.GUkBfX.tRsLWVm0yWMXmTzdTvqf2i-grSAqOl7CbO_-V0")
 JUMPSCARE_CHANCE = 0.10
