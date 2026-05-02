@@ -8,7 +8,7 @@ JUMPSCARE_CHANCE = 0.10
 
 # GitHub API URL pointing to your gifs folder
 # Replace YOUR_USERNAME and YOUR_REPO with your actual GitHub info
-GITHUB_API_URL = "https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO/contents/gifs"
+GITHUB_API_URL = "https://github.com/PigeonHawk/foxy-bot/tree/main/gifs"
 
 # --- BOT SETUP ---
 intents = discord.Intents.default()
