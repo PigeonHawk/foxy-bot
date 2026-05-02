@@ -1,2 +1,4 @@
-discord.py
-   aiohttp
+discord.py[voice]
+aiohttp
+PyNaCl
+
