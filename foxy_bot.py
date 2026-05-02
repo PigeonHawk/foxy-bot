@@ -3,7 +3,7 @@ import random
 import aiohttp
 import os
 # --- CONFIG ---
-BOT_TOKEN = os.environ.get("MTQ5OTk4NzUyMzA3Njc1NTU5Nw.GZUecG.l8rMCNeINg5vesvFPYAF6jbCHYK8O0UX-P9JsU")
+BOT_TOKEN = os.environ.get("MTQ5OTk4NzUyMzA3Njc1NTU5Nw.GwyIGb.VQGgr9VnuK5LPYA-40i48tWPRJA9N-sjyBXTJk")
 JUMPSCARE_CHANCE = 0.10
 
 # GitHub API URL pointing to your gifs folder
