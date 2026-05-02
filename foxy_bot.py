@@ -1,10 +1,11 @@
 import discord
 import random
 import aiohttp
+import os
 
 # --- CONFIG ---
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-JUMPSCARE_CHANCE = 0.10  # 10% chance per message
+BOT_TOKEN = os.environ.get("MTQ5OTk4NzUyMzA3Njc1NTU5Nw.GUkBfX.tRsLWVm0yWMXmTzdTvqf2i-grSAqOl7CbO_-V0")
+JUMPSCARE_CHANCE = 0.10
 
 # GitHub API URL pointing to your gifs folder
 # Replace YOUR_USERNAME and YOUR_REPO with your actual GitHub info
