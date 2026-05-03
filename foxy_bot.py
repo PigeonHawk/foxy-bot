@@ -8,7 +8,7 @@ from collections import deque
 
 # --- CONFIG ---
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-JUMPSCARE_CHANCE = 0.067
+JUMPSCARE_CHANCE = 0.0067
 
 GITHUB_API_URL_GIFS = "https://api.github.com/repos/PigeonHawk/foxy-bot/contents/gifs"
 GITHUB_API_URL_MUSIC = "https://api.github.com/repos/PigeonHawk/foxy-bot/contents/music"
