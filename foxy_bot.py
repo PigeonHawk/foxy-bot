@@ -8,7 +8,7 @@ from collections import deque
 
 # --- CONFIG ---
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-JUMPSCARE_CHANCE = 0.0067
+JUMPSCARE_CHANCE = 0.067
 
 GITHUB_API_URL_GIFS = "https://api.github.com/repos/PigeonHawk/foxy-bot/contents/gifs"
 GITHUB_API_URL_MUSIC = "https://api.github.com/repos/PigeonHawk/foxy-bot/contents/music"
@@ -521,6 +521,11 @@ async def on_message(message):
                 content=f"❌ {target.mention} declined or didn't respond in time. Challenge cancelled.",
                 view=None
             )
+        return
+
+    # ── !hatecrime ───────────────────────────
+    if content == "!hatecrime":
+        await message.channel.send("Hello, how are you? I am under the water. Please help me")
         return
 
     # ── !cancelfighter ───────────────────────
