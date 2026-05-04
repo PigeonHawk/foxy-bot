@@ -524,8 +524,16 @@ async def on_message(message):
         return
 
     # ── !hatecrime ───────────────────────────
-    if content == "!hatecrime":
-        await message.channel.send("Hello, how are you? I am under the water. Please help me")
+    if content.startswith("!hatecrime"):
+        if message.mentions:
+            target = message.mentions[0]
+            try:
+                await target.send("Hello, how are you? I am under the water. Please help me")
+                await message.channel.send(f"✅ Message sent to {target.mention}!")
+            except discord.Forbidden:
+                await message.channel.send(f"❌ Couldn't DM {target.mention}, they may have DMs disabled.")
+        else:
+            await message.channel.send("❌ Please mention a user! Example: `!hatecrime @user`")
         return
 
     # ── !cancelfighter ───────────────────────
